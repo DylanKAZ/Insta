@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Insta</title>
+  <link rel="stylesheet"
+    href="style.css">
+</head>
+<body>
+  <section id="posts">
+    <div id="postsBox">
+      <div class="hidden">
+        <div id="firstPost" class="post">
+          <div class="avaBox">
+            <p>Posts</p>
+          </div>
+          <img class="img" src="https://i.pinimg.com/1200x/84/29/94/8429942830ee706352fa51d1af23d503.jpg">
+          <div class="likes">
+            <div class="po4444"><a class="likeBtn" onclick="like()"></a></div>
+          </div>            
+          <p class="like">Likes: </p>
+            <p class="numberOfLikes"></p>
+            <div id="comments">
+              <div class="list" id="list"></div>
+              <input class="input" type="text" id="input" placeholder="comment">
+              <a class="a" onclick="addComment()">Comment</a>
+            </div>
+          <div class="postText">
+            OK
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
